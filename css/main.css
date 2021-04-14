@@ -1,0 +1,110 @@
+:root {
+    --font-color: rgba(25,25,52,0.89);
+    --main-color: rgba(103,103,255,0.1);
+    --hover-color: rgba(103,103,255,0.5);
+    --input-main: rgba(103,103,255,0.4);
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+body {
+    font-family: Pacifico;
+    background-image: url("../images/sample.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--font-color);
+    text-align: center;
+}
+
+header {
+    margin: 10px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+article {
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    font-family: Pacifico;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    color: var(--font-color);
+    background-color: var(--main-color);
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+.button {
+    text-align: center;
+}
+
+/* for created by js */
+form {
+    margin: 10px 0px 0px 10px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    color: var(--font-color);
+    font-family: Pacifico;
+    font-size: 1.1em;
+    border-radius: 8px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: var(--font-color);
+}
+
+input[type="text"]::-moz-placeholder {
+    color: var(--font-color);
+}
+
+#input {
+    background-color: var(--input-main);
+}
+
+#false {
+    margin-left: 40px;
+}
+
+.div {
+    display: inline;
+}
+
+#submit {
+    background-color: var(--main-color);
+}
+
+#submit:hover{
+    background-color: var(--hover-color);
+}
+
+input:active,
+input:focus {
+    outline: none;
+}
+
+#submit:active,
+#submit:focus {
+    outline: black;
+}
