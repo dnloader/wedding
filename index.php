@@ -26,7 +26,7 @@
         </h3>
     </article>
     <div class="button">
-        <button id="main_button">Откликнуться!</button>
+        <button id="main_button">Я прийду!</button>
     </div>
 
 </body>
